@@ -1,6 +1,12 @@
-from flask import Flask,render_template
+from flask import Flask,render_template,json
 
 app = Flask(__name__)
+
+gallery_JSON = open("./gallery_json.js").read()
+
+@app.route('/gallery_json')
+def gallery_json():
+    return json.dumps(gallery_JSON)
 
 @app.route('/')
 def index():

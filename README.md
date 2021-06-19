@@ -17,6 +17,6 @@ This is just starting code.
 ## Authors
 
 * [**Saurav Solanki**](https://github.com/sauravsolanki)
-* [**Gaurav Chatterjee**](https://github.com/Gaurav-chatterjee)
+
 
 ***Note:*** 
